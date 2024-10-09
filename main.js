@@ -19,3 +19,26 @@ function circle_area() {
 
 /*****  Your code goes below  *****/
 
+function to_fahrenheit() {
+
+   let celsius = Number(prompt("What is the temperature in Celcius?"))
+
+   let fahrenheit = Math.round((celsius * 9/5) + 32)
+
+   console.log(`${celsius}° Celsius is equal to ${fahrenheit}° Fahrenheit`)
+
+}
+
+// Part 2
+
+function to_celcius() {
+
+let fahrenheit = Number(prompt("What is the temperature in Fahrenheit?"))
+
+let celsius = Math.round((fahrenheit - 32) * 5/9)
+
+console.log (`${fahrenheit}° Fahrenheit is equal to ${celsius}° Celcius`)
+
+}
+
+// Part 3
